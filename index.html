@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background: linear-gradient(to right, #ffcccc, #ccccff);
+            color: #333;
+            direction: rtl; /* اتجاه النص من اليمين إلى اليسار */
+            text-align: right; /* محاذاة النص إلى اليمين */
+        }
+        h1, h2 {
+            color: #800080;
+        }
+        .marquee {
+            background-color: #f8f9fa;
+            padding: 10px;
+            margin-top: 20px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>الصفحة الرئيسية</h1>
+        <h2>اسماء الطلاب</h2>
+        <ul>
+            <li>الطالب 1 - Abdallah - الرقم الجامعي: 12345</li>
+            <li>الطالب 2 - Student 2 - الرقم الجامعي: 67890</li>
+        </ul>
+        <p>رابط النشر على الإنترنت: <a href="#">www.example.com</a></p>
+        <p>ملاحظات: تحتوي مكتبتنا الالكترونية على مجمعة واسعة ومتنوعة من القصص والروايات العربية والعالمية يمكنك تحميلها وشرائها بأسعار مدروسة.</p>
+
+        <nav>
+            <a href="AboutUs.html">من نحن</a> |
+            <a href="Books.html">الكتب</a>
+        </nav>
+
+        <div class="marquee">
+            <marquee direction="right" scrollamount="5"> <!-- جعل الاتجاه من اليمين إلى اليسار -->
+                <span>قصة 1: مغامرات في الغابة | قصة 2: سر الكتاب القديم | قصة 3: السيدة العجوز والبحر | قصة 4: الكنز المدفون | قصة 5: أسطورة المدينة المفقودة | 
+                قصة 6: عودة الأبطال | قصة 7: الزمن الضائع | قصة 8: رحلة عبر الفضاء | قصة 9: الفارس الشجاع | قصة 10: عالم السحر | 
+                قصة 11: رحلة في الزمن | قصة 12: العجوز والعصا السحرية | قصة 13: صداقة غريبة | قصة 14: خيال وواقع</span>
+            </marquee>
+        </div>
+    </div>
+</body>
+</html>
